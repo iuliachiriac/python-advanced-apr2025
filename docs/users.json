@@ -1,0 +1,44 @@
+[
+  {
+    "email": "martha.foster@example.com",
+    "age": 42
+  },
+  {
+    "first_name": "Arthur",
+    "last_name": "Fox",
+    "age": 34
+  },
+  {
+    "name": "Josh Kennedy",
+    "age": 32
+  },
+  {
+    "first_name": "Dean",
+    "last_name": "Morgan",
+    "age": 13
+  },
+  {
+    "name": "Logan Duncan",
+    "age": 28
+  },
+  {
+    "name": "Amelia Palmer",
+    "age": 61
+  },
+  {
+    "email": "rosiewalsh@example.com",
+    "age": 70
+  },
+  {
+    "name": "Eleanor Morris",
+    "age": 2
+  },
+  {
+    "name": "Sebastian Hayes",
+    "age": 78
+  },
+  {
+    "name": "Sean Armstrong",
+    "age": 43
+  }
+]
