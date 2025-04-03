@@ -3,7 +3,7 @@ import functools
 
 def make_pretty(func):
     @functools.wraps(func)
-    def inner(*args, **kwargs):
+    def inner(*args, **kwargs):  # inner -> functools.wraps(func)(inner)
         print("I got decorated")
         return func(*args, **kwargs)
 
