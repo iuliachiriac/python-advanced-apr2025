@@ -21,8 +21,10 @@ def test_create_employee():
 
 @pytest.mark.parametrize("percent", (0, 3, 22, 50, 81, 104))
 def test_invalid_percent(employee, percent):
+    initial_salary = employee.salary
     with pytest.raises(ValueError):
         employee.raise_salary(percent)
+    assert employee.salary == initial_salary
 
 
 @pytest.mark.parametrize("percent,salary", [(5, 105), (10, 110), (20, 120)])
